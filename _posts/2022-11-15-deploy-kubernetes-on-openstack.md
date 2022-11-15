@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deploy Production Ready Kubernetes Cluster on OpenStack"
+title:  "Deploy Kubernetes Cluster on OpenStack"
 author: alin
 categories: [ kubernetes ]
 image: https://i.postimg.cc/SNNMGM2H/infra.png
