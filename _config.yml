@@ -1,8 +1,12 @@
+name: Tech Blog
 title: Tech Blog
 email: dragomirdanielalin@gmail.com
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
 description: "Java, Kubernetes, Cloud, Internet Of Things"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dragomiralin.ro" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: """
+url: "https://dragomiralin.ro" 
+domain: dragomiralin.ro
 twitter_username: DragomirAlin9
 github_username: dragomiralin
 permalink: /:title
