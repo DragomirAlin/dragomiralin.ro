@@ -382,6 +382,8 @@ k8s-dragomir-k8s-node-nf-2     Ready    <none>          15m   v1.25.4   192.168.
 
 Now we are ready to play with the Kubernetes Cluster.
 
+If you have any questions or see something wrong, let me know. 😄 
+
 References
 - [Kubespray Documentation](https://github.com/kubernetes-sigs/kubespray)
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/)
