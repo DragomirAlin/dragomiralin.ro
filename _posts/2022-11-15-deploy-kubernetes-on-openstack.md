@@ -108,7 +108,7 @@ $ ln -s ../../contrib
 
 Now, we have to edit our invetory vars
 ```bash
-vi inventory/$CLUSTER/cluster.tfvars
+$ vi inventory/$CLUSTER/cluster.tfvars
 ```
 I use [Cloudify.ro](https://cloudify,ro) as OpenStack Provider
 
@@ -127,7 +127,7 @@ $ openstack image list
 $ openstack network list
 ```
 
-- Image for nodes: `ubuntu 20.04`
+- Image for nodes: `base-ubuntu-20.04`
 - Bastion flavor:  `m1.g-2c-4g` (id: `10002`)
 - Kubernetes nodes flavor: `m1.g-8c-16g` (id: `10004`)
 - Public network is called `public` (id: `0a92fd7a-9d60-4dcf-ba3f-cdc7ba86e551`) and the floating ip pool is the same as public.
@@ -293,7 +293,7 @@ cinder_csi_ignore_volume_az: true
 ### Deploy Kubernetes
 You are ready to deploy Kubernetes. It will take about ~12 minutes.
 ```bash
-cd ../..
+$ cd ../..
 $ ansible-playbook --become -i inventory/$CLUSTER/hosts cluster.yml
 ```
 
@@ -372,6 +372,8 @@ Now whenever you enter a kubectl command, the action will apply to the cluster, 
 
 ```bash
 $ kubectl get nodes -o wide
+```
+```bash
 NAME                           STATUS   ROLES           AGE   VERSION   INTERNAL-IP       EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION     CONTAINER-RUNTIME
 k8s-dragomir-k8s-master-nf-1   Ready    control-plane   17m   v1.25.4   192.168.100.52    <none>        Ubuntu 20.04.2 LTS   5.4.0-73-generic   containerd://1.6.9
 k8s-dragomir-k8s-node-nf-1     Ready    <none>          15m   v1.25.4   192.168.100.164   <none>        Ubuntu 20.04.2 LTS   5.4.0-73-generic   containerd://1.6.9
