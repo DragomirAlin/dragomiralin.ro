@@ -21,12 +21,12 @@ First, we have to look at the prerequisites for the deployment.
 
 Kubespray requires the following components:
 
+* OpenStack Provider ([Cloudify.ro](https://cloudify.ro) in my case)
 * Python 2.7 (or newer)
+* Terraform 0.11 (or newer)
 * Ansible 2.7 (or newer)
 * Jinja 2.9 (or newer)
-* Terraform 0.11 (or newer)
-* OpenStack Provider ([Cloudify.ro](https://cloudify.ro) in my case)
-
+  
 You can install manually the prerequisites or you can use `kubespray-openstack-starter` which helps us to create a docker image with all tools that we have nedeed in order to deploy and manage our infrastructure.
 
 ## 2. Setup Environment
@@ -89,8 +89,8 @@ $ docker-compose run infra
 Now, we have all we need in the docker container.
 
 
-## 3. Setup Cluster Configuration
-The following commands have to be executed in the container/our machine repository directory, therefore it is important to fill the variable `$CLUSTER` with a meaningful name.
+## 3. Setup Cluster
+The following commands have to be executed in the container/our machine repository directory, we need to fill `$CLUSTER` var
 
 In `kubespray-openstack-starter` approch we set the `$CLUSTER` as env variable, if you did manual installation, export your cluster name:
 ```bash
@@ -134,35 +134,35 @@ $ openstack network list
 
 
 ```yaml
-# your Kubernetes cluster name here
+# Your Kubernetes cluster name here
 cluster_name = "<your-cluster-name>"
 
-# list of availability zones available in your OpenStack cluster
+# List of availability zones available in your OpenStack cluster
 #az_list = ["nova"]
 
 # SSH key to use for access to nodes
 public_key_path = "~/.ssh/id_rsa.pub"
 
-# image to use for bastion, masters, standalone etcd instances, and nodes
+# Image to use for bastion, masters, standalone etcd instances, and nodes
 image = "base-ubuntu-20.04"
 
 group_vars_path="/<path>/kubespray/inventory/<your-cluster-name>/group_vars"
 
-# 0|1 bastion nodes
+# 0|1 Bastion nodes
 number_of_bastions = 1
 flavor_bastion = "10002" # m1.g-2c-4g
 
-# standalone etcds
+# Standalone Etcds
 number_of_etcd = 0
 
-# masters
+# Master Nodes
 number_of_k8s_masters = 0
 number_of_k8s_masters_no_etcd = 0
 number_of_k8s_masters_no_floating_ip = 1
 number_of_k8s_masters_no_floating_ip_no_etcd = 0
 flavor_k8s_master = "10004"
 
-# nodes
+# Worker Nodes
 number_of_k8s_nodes = 0
 number_of_k8s_nodes_no_floating_ip = 2 
 flavor_k8s_node = "10004" # m1.g-8c-16g
@@ -177,7 +177,7 @@ image_gfs = "base-ubuntu-20.04"
 #ssh_user_gfs = "ubuntu"
 #flavor_gfs_node = "<UUID>"
 
-# networking
+# Networking
 network_name = "k8s-dragomir-network"
 external_net = "0a92fd7a-9d60-4dcf-ba3f-cdc7ba86e551" # public network
 subnet_cidr = "192.168.100.0/24"
@@ -187,7 +187,7 @@ bastion_allowed_remote_ips = ["0.0.0.0/0"]
 
 A detalied description of the variables can be found here [link](https://github.com/kubernetes-sigs/kubespray/tree/master/contrib/terraform/openstack)
 
-## Infrastructure Deployment
+## Deploy Infrastructure with Terraform
 We've already installed the terraform on our workstation.
 
 To start the Terraform deployment go to your inventory directory `kubespray/invetory/$CLUSTER`
