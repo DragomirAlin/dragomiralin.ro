@@ -1,26 +1,21 @@
 ---
 layout: default
-disqus: false
+disqus: true
 archive: false
 post_class: post-template
 ---
 
 <!-- Begin Article
 ================================================== -->
-<div class="container">
-    <div class="row">
-
+<div class="container-fluid p-0">
+    <div class="row g-2">
         <!-- Post Share -->
-        <div class="col-md-2 pl-0">
-            {% include share.html %}
-        </div>
 
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
-        <div class="col-md-9 flex-first flex-md-unordered">
+        <div class="col-md-10">
             <div class="mainheading">
-
                 <!-- Author Box -->
                 {% if page.author %}
                 <div class="row post-top-meta">
@@ -32,8 +27,8 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-                        <span class="author-description">{{ author.description }}</span>
+                        <span style="font-size: 25px;" class="">{{ author.display_name }}</span><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                        <div class="author-description">{{ author.description }}</div>
                     </div>
                 </div>
                 {% endif %}
@@ -133,6 +128,10 @@ post_class: post-template
             <!-- End Categories -->
 
         </div>
+        <div class="col-md-2 pl-0">
+            {% include share.html %}
+        </div>
+
         <!-- End Post -->
 
     </div>
@@ -178,4 +177,6 @@ https://search.google.com/structured-data/testing-tool/u/0/
   }
 }
 </script>
+<script src="/assets/scripts/copyCode.js"></script>
+
 {% endif %}

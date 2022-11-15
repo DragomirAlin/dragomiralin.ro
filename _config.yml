@@ -15,7 +15,7 @@ permalink: /:title
 include: ["_pages"]
 
 authors:
-  david:
+  alin:
     name: Alin
     display_name: Alin
     gravatar: a94a23fc0d2667546d6264f58b1916ac
