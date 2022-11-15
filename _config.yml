@@ -4,7 +4,7 @@ email: dragomirdanielalin@gmail.com
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 description: "Java, Kubernetes, Cloud, Internet Of Things"
-baseurl: """
+baseurl: ""
 url: "https://dragomiralin.ro" 
 domain: dragomiralin.ro
 twitter_username: DragomirAlin9
