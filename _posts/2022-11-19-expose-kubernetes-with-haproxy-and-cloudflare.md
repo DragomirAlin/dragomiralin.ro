@@ -67,9 +67,11 @@ $ openstack floating ip set  --port <your_port_server> <floating-ip> (Floating I
 You have to register your domain on Cloudflare in order to add your DNS record and generate certificates. [Here are the instructions](https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/)
 
 #### 2.b.1 Configure DNS Record for your added domain ([documentation](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/))
-| Type      | Name | Content |
-| ----------- | ----------- | ----------- | 
-| A      | k8s       | `<your-floating-ip-instance>`       |
+- Type: A
+- Name: k8s
+- Content: `<your-floating-ip-instance>` 
+
+
 
 #### 2.b.2 Configure Edge Certificate
 - Always Use HTTPS: True
