@@ -185,6 +185,8 @@ curl https://k8s.<your-domain.com>
 
 Now, we can expose our applications via Ingress Controller
 
+For HAProxy Cluster with high availability - [link](https://itnext.io/kubernetes-journey-up-and-running-out-of-the-cloud-how-to-setup-the-haproxy-cluster-with-high-ee5eb9a7f2e1)
+
 #### References
 - [Ingress Controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
 - [Cloudflare docs](https://developers.cloudflare.com/)
