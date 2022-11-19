@@ -162,6 +162,7 @@ backend k8s_worker_nodes
 ### 3. Run HAProxy
 Run HAProxy with Docker
 ```bash
+$ cd haproxy
 $ sudo docker run -d \
    --name haproxy \
    -v $(pwd):/usr/local/etc/haproxy:ro \
