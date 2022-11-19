@@ -36,7 +36,7 @@ ingress_publish_status_address: ""
 Go to your `kubespray` directory to run ansible
 
 ```bash
-ansible-playbook --become -i inventory/$CLUSTER/hosts cluster.yml --tags apps,ingress-nginx,ingress-controller
+# ansible-playbook --become -i inventory/$CLUSTER/hosts cluster.yml --tags apps,ingress-nginx,ingress-controller
 ```
 
 ## 2. Create Load Balancer with HAProxy
@@ -171,7 +171,7 @@ $ sudo docker run -d \
 
 ### Test Connectivity
 ```bash
-curl https://k8s.<your-domain.com>
+$ curl https://k8s.<your-domain.com>
 ```
 ```bash
 <html>
