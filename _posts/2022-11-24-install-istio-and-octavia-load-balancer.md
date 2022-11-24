@@ -10,7 +10,7 @@ hidden: true
 
 We are going to use Istio as a service mesh for our Kubernetes Cluster and Octavia Load Balancer as ingress gateway for mesh.
 
-### Prerequirments:
+### Prequiresitions:
 - Kubernetes Cluster deployed with Ansible (article)
 - OpenStack Cloud Controller Manager
 - OpenStack Octavia Enabled
