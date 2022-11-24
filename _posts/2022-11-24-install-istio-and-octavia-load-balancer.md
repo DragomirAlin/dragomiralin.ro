@@ -16,7 +16,7 @@ We are going to use Istio as a service mesh for our Kubernetes Cluster and Octav
 - OpenStack Octavia Enabled
 
 ## 1. Istio
-Istio is a service mesh tool that provides observability, security in depth, and traffic management.
+Istio is a service mesh tool that provides observability, security in depth and traffic management.
 
 ### Traffic Management
 We can direct traffic within our mesh. Traffic management is based on Envoy proxies that are deployed along with services.
