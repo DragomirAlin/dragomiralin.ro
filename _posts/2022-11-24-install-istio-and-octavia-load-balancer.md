@@ -22,7 +22,7 @@ Istio is a service mesh tool that provides observability, security in depth and 
 We can direct traffic within our mesh. Traffic management is based on Envoy proxies that are deployed along with services.
 
 API Resource:
-- **Virtual Service** -> route requests to a service in different ways)
+- **Virtual Service** -> route requests to a service in different ways
 - **Gateway** -> manage inbound and outbound traffic for your mesh (ingress/egress traffic)
 - **Destination Rules** -> are applied after virtual service as destionation rules such as traffic policy(load balancing mode), tls security mode, circuit breaker and so on
 - **Service entry** -> redirect and forward traffic, apply retry, timeout for external destinations
@@ -116,7 +116,7 @@ $ export PATH=$PWD/bin:$PATH
 We use demo configuration profile. There are 6 profiles: default, demo, minimal, remote, empty and preview. ([Installation Configuration Profiles](https://istio.io/latest/docs/setup/additional-setup/config-profiles/))
 
 ```bash
-istioctl install --set profile=demo -y
+$ istioctl install --set profile=demo -y
 ```
 ```bash
 ✔ Istio core installed                
@@ -177,7 +177,7 @@ spec:
 The test application is deployed but we can not access it from outside. To make it accessible, we need to create an Istio Ingress Gateway
 ### Deploy Gateway and Virtual Service
 ```bash
-kubectl apply -f gateway.yaml
+$ kubectl apply -f gateway.yaml
 ```
 `gateway.yaml`
 ```yaml 
