@@ -82,8 +82,7 @@ Successfully built image demo-service-by-cli
 ```bash
 $ docker ps
 REPOSITORY                                TAG                        IMAGE ID       CREATED         SIZE
-demo-service-by-cli                              latest                     0975feeb2a14   42 years ago    276MB
-
+demo-service-by-cli                       latest                     0975feeb2a14   42 years ago    276MB
 ```
 #### Run it
 ```bash
@@ -107,6 +106,8 @@ $ docker ps
 #### Run it
 ```bash
 $ docker run --rm -p 8080:8080 demo-service-by-maven
+REPOSITORY                                TAG                        IMAGE ID       CREATED         SIZE
+demo-service-by-maven                     latest                     0975feeb2a14   42 years ago    276MB
 ```
 ```bash
 $ curl localhost:8080
