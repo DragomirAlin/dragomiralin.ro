@@ -4,7 +4,7 @@ title:  "Install Istio and Octavia Load Balancer on Kubernetes"
 author: alin
 categories: [ kubernetes, openstack, "service mesh" ]
 image: https://i.postimg.cc/1XF70sN0/kiali.png
-featured: true
+featured: false
 hidden: true
 ---
 
