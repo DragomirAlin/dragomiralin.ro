@@ -5,7 +5,7 @@ author: alin
 categories: [ kubernetes, openstack, "service mesh" ]
 image: https://i.postimg.cc/1XF70sN0/kiali.png
 featured: false
-hidden: true
+hidden: false
 ---
 
 We are going to use Istio as a service mesh for our Kubernetes Cluster and Octavia Load Balancer as ingress gateway for mesh.

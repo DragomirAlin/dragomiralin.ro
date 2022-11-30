@@ -5,7 +5,7 @@ author: alin
 categories: [ kubernetes ]
 image: https://i.postimg.cc/SNNMGM2H/infra.png
 featured: false
-hidden: true
+hidden: false
 ---
 
 

@@ -5,7 +5,7 @@ author: alin
 categories: [ kubernetes ]
 image: https://i.postimg.cc/3xqDSX4Q/cloudflare-haproxy-k8s-2.png
 featured: false
-hidden: true
+hidden: false
 ---
 
 In the previous article ([link](https://dragomiralin.ro/deploy-kubernetes-on-openstack)), we deployed a Kubernetes Cluster by Kubespray on OpenStack. Now, our cluster is in a private subnet, so we cannot reach it from the outside. We will install an NGINX Ingress Controller to expose our applications, and to reach to the Ingress Controller we will install a HAProxy in front of our kubernetes workers that has both internal and external connectivity.
