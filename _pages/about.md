@@ -13,13 +13,24 @@ Hi there 👋
 I'm currently a Software Engineer, I like learning every day and I am passionate about Microservices, Cloud and the Internet of Things.
 <br />
 
-* :rocket: I love building things
-* 🔭 I’m currently working on side projects
-* 🌱 I’m currently learning about Cloud (Kubernetes, OpenStack, Terraform)
-* 🤝 I’m looking to collaborate on new ideas
-* 👨🏻‍💻 Most of my projects are available on [GitHub](https://github.com/DragomirAlin?tab=repositories)
+<div>
+I love building things
+    <ul>
+        <li>
+            🔭 I’m currently working on side projects
+        </li>
+        <li>
+            🌱 I’m currently learning about Cloud (Kubernetes, OpenStack, Terraform)
+        </li>
+        <li>
+            🤝 I’m looking to collaborate on new ideas
+        </li>
+        <li>
+            👨🏻‍💻 Most of my projects are available on <a target="_blank" class="nav-link" href="https://github.com/DragomirAlin?tab=repositories"><i class="fab fa-linkedin-in"></i> GitHub</a> 
+        </li>
+    </ul>
+</div>
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,docker,kubernetes,linux,openstack,mongodb,postgres,js,redis,html,css,cloudflare&theme=light)](https://skillicons.dev)
 
 
 
