@@ -18,8 +18,8 @@ post_class: post-template
             <div class="mainheading">
                 <!-- Author Box -->
                 {% if page.author %}
-                <div class="px-2 row post-top-meta text-center">
-                    <div class="d-flex text-center text-md-left mb-md-0">
+                <div class="px-2 row post-top-meta">
+                    <div class="d-flex">
                         <div class="ms-auto">
                         {% if author.avatar %}
                         <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
@@ -28,7 +28,7 @@ post_class: post-template
                         {% endif %}
                     </div>
                     </div>
-                    <div class="text-center text-md-left">
+                    <div class="">
                         <span style="font-size: 25px;" class="">{{ author.display_name }}</span><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
                         <div class="author-description">{{ author.description }}</div>
                     </div>

@@ -28,7 +28,7 @@ I'm currently a Software Engineer, I like learning every day and I am passionate
             🤝 I’m looking to collaborate on new ideas
         </li>
         <li>
-            👨🏻‍💻 Most of my projects are available on <a target="_blank" class="nav-link" href="https://github.com/DragomirAlin?tab=repositories"><i class="fab fa-github"></i> GitHub</a> 
+            👨🏻‍💻 Most of my projects are available on <a target="_blank" href="https://github.com/DragomirAlin?tab=repositories"><i class="fab fa-github"></i> GitHub</a> 
         </li>
     </ul>
 </div>
