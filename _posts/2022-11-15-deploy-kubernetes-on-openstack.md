@@ -8,7 +8,6 @@ featured: false
 hidden: false
 ---
 
-
 In this article, you will learn how to deploy Kubernetes using Kubespray on OpenStack Cloud. Kubespray is a tool that provides a set of Ansible playbooks, inventory, provisioing tools to deploy a production-ready Kubernetes cluster. It is a nice tool to deploy a Kubernetes cluster on OpenStack. There are also other tools for deploying Kubernetes such as kOps and Kubeadm.
 
 We will use Terraform for creation of OpenStack infrastructure and Ansible for deploying the Kubernetes.
