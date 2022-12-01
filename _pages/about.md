@@ -6,16 +6,18 @@ comments: true
 ---
 
 <div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<div class="col-md-12">
 
 Hi there 👋
 
 I'm currently a Software Engineer, I like learning every day and I am passionate about Microservices, Cloud and the Internet of Things.
 <br />
 
-<div>
-I love building things
+<div class="mt-5">
     <ul>
+        <li>
+            I love building things
+        </li>
         <li>
             🔭 I’m currently working on side projects
         </li>
