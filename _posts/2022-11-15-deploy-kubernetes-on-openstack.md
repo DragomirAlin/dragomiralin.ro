@@ -3,7 +3,7 @@ layout: post
 title:  "Deploy Kubernetes Cluster on OpenStack using Kubespray"
 author: alin
 categories: [ Kubernetes, OpenStack ]
-image: https://i.postimg.cc/SNNMGM2H/infra.png
+image: https://i.postimg.cc/G20FTVZh/infra.webp
 featured: false
 hidden: false
 ---

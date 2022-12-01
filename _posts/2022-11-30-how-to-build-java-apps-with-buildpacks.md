@@ -3,7 +3,7 @@ layout: post
 title:  "How to build your Java Apps with Paketo Buildpacks - Cloud Native Tool #001"
 author: alin
 categories: [ "Cloud Native Tool" ]
-image: https://i.postimg.cc/9z3zWSP2/buildpacks.png
+image: https://i.postimg.cc/s3Pn7XLV/buildpacks.webp
 featured: true
 hidden: true
 ---
@@ -19,7 +19,7 @@ Some nice features:
 
 ## 1. Create a test application
 Go to [https://start.spring.io/](https://start.spring.io/) and create the app
-![App](/assets/images/create-app.png)
+![App](/assets/images/create-app.webp)
 
 Create a very simple application which exposes a single route `/` with `Welcome to Buildpacks!`
 ```java

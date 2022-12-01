@@ -3,7 +3,7 @@ layout: post
 title:  "Expose your Kubernetes Ingress Controller with HAProxy and Cloudflare"
 author: alin
 categories: [ Kubernetes ]
-image: https://i.postimg.cc/3xqDSX4Q/cloudflare-haproxy-k8s-2.png
+image: https://i.postimg.cc/SxhbVxCW/cloudflare-haproxy-k8s.webp
 featured: false
 hidden: false
 ---
