@@ -17,6 +17,8 @@ Some of the key features of Argo CD include:
 - Support for multiple clusters and namespaces: Argo CD can manage applications across multiple Kubernetes clusters and namespaces
 - Scalable and highly available architecture: Argo CD is designed to be scalable and highly available
 
+![Argo CD Architecture](../assets/images/smarthome/argocd_architecture.webp)
+
 ### ArgoCD Installation
 To install Argo CD, you will first need to have a Kubernetes cluster up and running.
 
