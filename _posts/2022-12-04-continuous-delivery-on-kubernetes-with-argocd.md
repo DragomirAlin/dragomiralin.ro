@@ -61,6 +61,7 @@ Access Argo CD Dashboard: `http://localhost:8888`
 ![Dashboard](../assets/images/smarthome/argocd-login.png)
 
 Username: `admin`
+
 For getting the password run:
 ```bash
 $ echo "Password: $(kubectl -n argocd get secret argocd-secret -o jsonpath="{.data.clearPassword}" | base64 -d)"
@@ -93,6 +94,8 @@ spec:
       selfHeal: false
 ```
 ![Argo CD App](../assets/images/smarthome/argocd-apps.png)
+
+See detalied deployment
 ![Argo CD Deployment](../assets/images/smarthome/argocd-deployment.png)
 
 See the deployment on kubernetes:
