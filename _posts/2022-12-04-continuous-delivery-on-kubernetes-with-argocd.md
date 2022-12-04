@@ -3,7 +3,7 @@ layout: post
 title:  "Continuous Delivery on Kubernetes with Argo CD - Cloud Native Tool #002"
 author: alin
 categories: [ Kubernetes, "Cloud Native Tool" ]
-image: https://i.postimg.cc/Fsb7V2J9/argocd-deployment.png
+image: https://i.postimg.cc/jKmPtTxJ/argocd-deployment.png
 featured: true
 hidden: true
 ---
