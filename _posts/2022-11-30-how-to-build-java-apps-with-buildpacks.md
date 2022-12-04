@@ -4,8 +4,8 @@ title:  "How to build your Java Apps with Paketo Buildpacks - Cloud Native Tool 
 author: alin
 categories: [ "Cloud Native Tool" ]
 image: https://i.postimg.cc/s3Pn7XLV/buildpacks.webp
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 Buildpacks transform your application source code into container images without using Dockerfiles and provides production-ready buildpacks for Java apps
