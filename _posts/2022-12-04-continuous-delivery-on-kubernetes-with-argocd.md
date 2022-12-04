@@ -5,7 +5,7 @@ author: alin
 categories: [ Kubernetes, "Cloud Native Tool" ]
 image: https://i.postimg.cc/Fsb7V2J9/argocd-deployment.png
 featured: true
-hidden: false
+hidden: true
 ---
 
 Argo CD is a continuous delivery tool for Kubernetes. It allows developers to define their application deployment infrastructure as code, and then uses that code to automate the deployment of applications to multiple Kubernetes clusters.
