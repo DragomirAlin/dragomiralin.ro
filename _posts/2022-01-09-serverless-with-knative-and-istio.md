@@ -3,23 +3,23 @@ layout: post
 title:  "Serverless with Knative and Istio on Kubernetes"
 author: alin
 categories: [ Kubernetes, Serverless, Knative ]
-image: https://i.postimg.cc/tCfYPSz8/serverless-istio-knative.png
-featured: false
-hidden: false
+image: https://i.postimg.cc/pLVNkRXS/serverless-knative.png
+featured: true
+hidden: true
 ---
 
 **Knative** is an open source project that provides a set of building blocks for creating, deploying, and running serverless applications on Kubernetes. It includes components for building, serving, and scaling containerized applications, and can be used to run a variety of workloads, including microservices, batch jobs, and functions.
 
 
-Knative has several key features that make it useful for building cloud-native applications, including:
+**Knative** has several key features that make it useful for building cloud-native applications, including:
 
-- Automatic scaling: Knative can automatically scale applications up and down based on demand, making it easy to build highly-available and scalable applications.
+- **Automatic scaling**: Knative can automatically scale applications up and down based on demand, making it easy to build highly-available and scalable applications.
 
-- Serverless: Knative provides a serverless computing platform, allowing developers to build and deploy applications without having to worry about infrastructure management.
+- **Serverless**: Knative provides a serverless computing platform, allowing developers to build and deploy applications without having to worry about infrastructure management.
 
-- Event-driven: Knative can trigger the execution of an application in response to external events, such as the arrival of new data in a database or the completion of a batch job.
+- **Event-driven**: Knative can trigger the execution of an application in response to external events, such as the arrival of new data in a database or the completion of a batch job.
 
-- Customizable: Knative provides a set of building blocks that can be customized and extended to suit the specific needs of an application.
+- **Customizable**: Knative provides a set of building blocks that can be customized and extended to suit the specific needs of an application.
 
 **Istio** is a service mesh tools that provides observability, security in depth, and traffic management.
 
