@@ -58,7 +58,7 @@ We need to configure domain name to make our domain publicly accessible.
 We must update the DNS provider to point to the IP address for our service ingress.
 Create a wildcard record for the namespace and custom domain to the ingress IP Address
 ```
-*.default.knative.dev                   59     IN     A   <istio-ingress-gateway-ip>
+*.knative.example.com                   59     IN     A   <istio-ingress-gateway-ip>
 ```
 
 Then update `config-domain` so Knative knows about our domain
