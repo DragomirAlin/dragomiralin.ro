@@ -103,7 +103,7 @@ spec:
       selector:
         dnsNames:
         - "example.com"
-        - "example.com"
+        - "*.example.com"
 ```
 #### Install networking-ns-cert component 
 Provisioning a certificate per namespace only works with DNS-01 challenge. 
