@@ -4,8 +4,8 @@ title:  "Serverless with Knative and Istio on Kubernetes"
 author: alin
 categories: [ Kubernetes, Serverless, Knative ]
 image: https://i.postimg.cc/pLVNkRXS/serverless-knative.png
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 **Knative** is an open source project that provides a set of building blocks for creating, deploying, and running serverless applications on Kubernetes. It includes components for building, serving, and scaling containerized applications, and can be used to run a variety of workloads, including microservices, batch jobs, and functions.
