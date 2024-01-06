@@ -3,16 +3,19 @@ layout: post
 title: "Serverless Computing with AWS Lambda"
 author: alin
 categories: [ Serverless, AWS Lambda, AWS ]
-image: https://i.postimg.cc/WzYPmxq1/ecommerce.jpg
+image: https://i.postimg.cc/x86LYxhB/invoice-importer.png
 featured: true
 hidden: true
 ---
 
 Serverless computing is a cloud computing execution model in which the cloud provider dynamically manages the allocation
-of machine resources. Pricing is based on the actual amount of resources consumed by an application, rather than on
+of machine resources. 
+
+Pricing is based on the actual amount of resources consumed by an application, rather than on
 pre-purchased units of capacity. It is a form of utility computing.
 
 AWS Lambda is a serverless compute service that was created by Amazon Web Services in 2014.
+
 A key benefit of AWS Lambda is that we don't have to worry about managing and provisioning the infrastructure, which
 means that our focus is on developing the business logic.
 
@@ -95,11 +98,8 @@ On-Premise Serverless Alternatives:
 - Fission
 - Nuclio
 
-The key benefit from my perspective is how quickly you can build applications with Lambda when combined with other AWS service.
-It’s not perfect but it’s a great option for many use cases.
 
-
-I built some POCs with AWS Lambda and I was impressed by how easy it is to get started with it.
+I built 2 POCs with AWS Lambda and I was impressed by how easy it is to get started with it.
 
 ## Notifications Service
 Notifications Service is a serverless application that sends notifications to users via email.
@@ -127,3 +127,5 @@ The application is composed of the following components:
 
 Github Repo: [invoice-importer](https://github.com/DragomirAlin/serverless/tree/main/aws/invoice-importer)
 
+The key benefit from my perspective is how quickly you can build applications with Lambda when combined with other AWS service.
+It’s not perfect but it’s a great option for many use cases.
