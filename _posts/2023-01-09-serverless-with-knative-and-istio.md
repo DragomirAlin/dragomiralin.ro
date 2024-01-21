@@ -2,7 +2,7 @@
 layout: post
 title:  "Serverless with Knative and Istio on Kubernetes"
 author: alin
-categories: [ Kubernetes, Serverless, Knative ]
+categories: [ Kubernetes, Serverless ]
 image: https://i.postimg.cc/pLVNkRXS/serverless-knative.png
 featured: false
 hidden: false

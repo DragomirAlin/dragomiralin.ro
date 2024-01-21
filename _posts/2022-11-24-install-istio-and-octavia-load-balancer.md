@@ -2,7 +2,7 @@
 layout: post
 title:  "Install Istio and Octavia Load Balancer on Kubernetes"
 author: alin
-categories: [ Kubernetes, OpenStack, "Service Mesh" ]
+categories: [ Kubernetes, OpenStack ]
 image: https://i.postimg.cc/jdqjcvTx/kiali.webp
 featured: false
 hidden: false

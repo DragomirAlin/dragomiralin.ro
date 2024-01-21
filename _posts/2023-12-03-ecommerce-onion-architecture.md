@@ -2,10 +2,10 @@
 layout: post
 title:  "Building a Robust E-Commerce Platform with Onion Architecture"
 author: alin
-categories: [ E-Commerce, Onion Architecture, DDD, Design ]
+categories: [ "Software Architecture" ]
 image: https://i.postimg.cc/WzYPmxq1/ecommerce.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 Another E-Commerce project used to learn and practice a wide range of best practices and tools.

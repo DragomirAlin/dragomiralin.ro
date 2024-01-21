@@ -2,7 +2,7 @@
 layout: post
 title: "Serverless Computing with AWS Lambda"
 author: alin
-categories: [ Serverless, AWS Lambda, AWS ]
+categories: [ Serverless, AWS ]
 image: https://i.postimg.cc/x86LYxhB/invoice-importer.png
 featured: true
 hidden: true
