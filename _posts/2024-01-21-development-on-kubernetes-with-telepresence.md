@@ -88,9 +88,9 @@ deposit-service-8fddc6b9-b4nwx          1/1     Running   0          5m
 
 ### 5. Scenario 1: Develop a microservice locally and use other microservices running on Kubernetes
 
-Our microservice needs other microservices to work properly. For example, the deposit-service needs the account-service
-and the notification-service to work properly.
-Let's develop the deposit-service locally and use the account-service and the notification-service running on
+Our microservice needs other microservices to work properly. For example, the `deposit-service` needs the `account-service`
+and the `notification-service` to work properly.
+Let's develop the `deposit-service` locally and use the `account-service` and the `notification-service` running on
 Kubernetes.
 
 ![Scenario 1 calls](../assets/images/telepresence/calls-scenario-1.png)
@@ -107,7 +107,7 @@ deposit-service     : ready to intercept (traffic-agent not yet installed)
 notification-service: ready to intercept (traffic-agent not yet installed)
 ```
 
-Let's start by intercepting the deposit-service.
+Let's start by intercepting the `deposit-service`.
 
 ```shell
 telepresence intercept deposit-service --port 8881:8881
@@ -128,7 +128,7 @@ deposit-service     : intercepted
 notification-service: ready to intercept (traffic-agent not yet installed)
 ```
 
-Let's call the deposit-service endpoint to check if it works properly.
+Let's call the `deposit-service` endpoint to check if it works properly.
 
 ```shell
 http POST http://localhost:8881/deposits accountId=5 amount=5
@@ -142,7 +142,7 @@ http POST http://localhost:8881/deposits accountId=5 amount=5
 ```
 
 Now, we can start developing our microservice locally. We can use our favorite IDE and debug the code as we would do
-with any other local application and notification-service and account-service running on Kubernetes.
+with any other local application and `notification-service` and `account-service` running on Kubernetes.
 
 Clean up the Telepresence agent.
 
@@ -178,7 +178,7 @@ Using Deployment account-service
 ```
 
 
-If you don't have your application exposed externally, you can use the following command to access the deposit-service
+If you don't have your application exposed externally, you can use the following command to access the `deposit-service`
 API.
 
 ```shell
