@@ -16,7 +16,7 @@ Telepresence helps us to develop and debug Kubernetes microservices locally and 
 <img src="../assets/images/telepresence/telepresence-logo.svg" width="300" height="300" />
 
 
-Telepresence is an open-source tool that allows us to set up remote development environments on Kubernetes while having
+[Telepresence.io](https://www.telepresence.io/) is an open-source tool that allows us to set up remote development environments on Kubernetes while having
 the local development experience.
 
 - Telepresence is a CLI tool that runs on macOS, Linux, and Windows.
